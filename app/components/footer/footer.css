@@ -4,9 +4,11 @@
     left:0px;
     width:100vw;
     background:black;
+    font-size: 15px;
 }
 
 .footer_link{
+    font-size: 15px;
     color:white;
     text-decoration: none;
 }

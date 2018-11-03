@@ -64,7 +64,7 @@ export default class Greetings extends Component{
         //     GreetDiv = <h2></h2>;
 
         return(
-            <div className="container-fluid" style={{height:'2000px'}}>
+            <div className="container-fluid p-0" style={{height:'1200px', overflow:'hidden'}}>
                 <img src={COC_LOGO} className="img-fluid|thumbnail logo" alt="COC LOGO"/>
                 <h1 className="text-center mt-5 p-2 coc_text">{this.state.coc_text + this.state.cursor}</h1>
                 {this.state.wait_count > 13 && this.state.wait_count <= 36 &&
