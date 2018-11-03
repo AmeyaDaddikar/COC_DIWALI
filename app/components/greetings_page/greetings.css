@@ -1,0 +1,21 @@
+.logo{
+    width: 80vw;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    padding-top: 4vh;
+}
+.coc_text{
+    font-size:100px;
+}
+.sub_title{
+    font-size:50px; 
+    font-weight:lighter;
+}
+
+.happy_diwali{
+    width: 90vw;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}

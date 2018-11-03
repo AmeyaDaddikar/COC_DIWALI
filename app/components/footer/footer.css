@@ -1,0 +1,18 @@
+.footer{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100vw;
+    background:black;
+}
+
+.footer_link{
+    color:white;
+    text-decoration: none;
+}
+
+.footer_link:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
