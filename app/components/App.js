@@ -12,8 +12,8 @@ export default class App extends Component{
             <div className="m-0 p-0" style={{width:'100vw', backgroundColor:'#F4F5F3'}}>
                 <Router>
                     <div>
-                        <Route exact path="/" component={Greetings} />
-                        <Route exact path="/about" component={About} />
+                        <Route  path="/" component={Greetings} />
+                        <Route  path="/about" component={About} />
                         <Footer/>
                     </div>
                 </Router>
