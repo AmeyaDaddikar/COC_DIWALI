@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './greetings.css';
 
 import COC_LOGO from './coc_logo.png';
-import HAPPY_DIWALI from './happy_diwali.jpg';
+import HappyDiwaliPic from '../happy_diwali_pic/HappyDiwali';
 
 let COC_TITLE = "Community of Coders ";
 
@@ -64,14 +64,14 @@ export default class Greetings extends Component{
         //     GreetDiv = <h2></h2>;
 
         return(
-            <div className="container-fluid p-0" style={{height:'1200px', overflow:'hidden'}}>
+            <div className="container-fluid p-0" style={{height:'1100px', overflow:'hidden'}}>
                 <img src={COC_LOGO} className="img-fluid|thumbnail logo" alt="COC LOGO"/>
                 <h1 className="text-center mt-5 p-2 coc_text">{this.state.coc_text + this.state.cursor}</h1>
-                {this.state.wait_count > 13 && this.state.wait_count <= 36 &&
+                {this.state.wait_count > 13 &&
                 <h2 className="sub_title text-center mt-5">would like to greet you all...</h2>
                 }
                 {this.state.wait_count > 36 &&
-                    <img src={HAPPY_DIWALI} className="img-fluid|thumbbail happy_diwali mx-auto" alt="happy diwali"/>
+                    <HappyDiwaliPic />
                 }
             </div>
         );
