@@ -8,7 +8,7 @@ export default class About extends Component{
             <ol className="mt-3">
                 <li>
                     <h5>So what is this website about?</h5>
-                    <p>This weekend we would like to introduce you guys to Single Page Applications. Consider this as refresher from the boring ESE studies and submissions xD. 
+                    <p>This week we would like to introduce you guys to Single Page Applications. Consider this as refresher from the boring ESE studies and submissions xD. 
                         The website you are currently seeing is made on ReactJS which is one of the well-known Javascript Based Front End framework.
                         Other such frameworks include Vue JS and Angular.
                     </p>
