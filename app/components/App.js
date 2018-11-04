@@ -11,7 +11,7 @@ export default class App extends Component{
         console.log("PUBLIC ENV :", process.env.PUBLIC_URL);
         return (
             <div className="m-0 p-0" style={{width:'100vw', backgroundColor:'#F4F5F3'}}>
-                <Router basename={'/COC_DIWALI'}>
+                <Router>
                     <div>
                         <Route exact path= {"/"} component={Greetings} />
                         <Route exact path={"/about"} component={About} />
