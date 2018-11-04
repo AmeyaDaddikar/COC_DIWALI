@@ -1,4 +1,5 @@
 var HTMLWebpackPlugin = require('html-webpack-plugin');
+var webpack = require('webpack');
 
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
     template: __dirname + '/app/index.html',
@@ -38,7 +39,8 @@ module.exports = {
         path: __dirname + '/build'
     },
     plugins: [
-        HTMLWebpackPluginConfig
+        HTMLWebpackPluginConfig,
+        new webpack.EnvironmentPlugin({...process.env})
     ],
     devServer: {
         historyApiFallback: true,
