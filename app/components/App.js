@@ -10,10 +10,10 @@ export default class App extends Component{
     render(){
         return (
             <div className="m-0 p-0" style={{width:'100vw', backgroundColor:'#F4F5F3'}}>
-                <Router>
+                <Router basename={process.env.PUBLIC_URL}>
                     <div>
-                        <Route exact path="/COC_DIWALI" component={Greetings} />
-                        <Route exact path="/COC_DIWALI/about" component={About} />
+                        <Route exact path= {"/"} component={Greetings} />
+                        <Route exact path={"/about"} component={About} />
                         <Footer/>
                     </div>
                 </Router>
